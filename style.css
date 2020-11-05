@@ -1,3 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+}
+body, html, div{
+    margin: 0px;
+}
 .c1{
     color: #fff;
 }
@@ -11,10 +18,6 @@ body, html, div{
     margin: 0px;
 }
 
-#container {
-    width: 100vw;
-    height: 100vh;
-}
 /*MENU*/
 .menu{
     background-color:#ff3300;
@@ -40,7 +43,7 @@ body, html, div{
 .menu nav ul li{
     float: right;
     position: relative;
-    padding: 0px 0px 0px 5px;
+    padding: 15px 0px 0px 5px;
 }
 .menu nav ul li a{
     text-decoration: none;
@@ -53,17 +56,20 @@ body, html, div{
     color: #fff;
 }
 /*BANNER*/
-div .banner{
-    margin: 0px;
-    margin-left: 0px !important;
+#hero{
+    text-align: center;
+    max-width: 100%;
+    position: relative;
 }
 .title a{
     font-family: 'roboto', sans-serif;
     font-weight: 700;
     position: absolute;
     color: #fff;
+    margin-left: -100px;
     margin-top: -100px;
-    margin-left: 610px;
+    left:50%;
+    width:auto;
     background-color: #ff3300;
     padding: 10px 20px;
     border-radius: 50px;
@@ -71,28 +77,30 @@ div .banner{
     text-decoration: none;
 }
 .title a:hover{
-    font-family: 'roboto', sans-serif;
-    font-weight: 700;
-    position: absolute;
-    color: #fff;
-    margin-top: -100px;
-    margin-left: 610px;
-    background-color: #ff3300;
-    padding: 10px 20px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.315);
-    text-decoration: none;
+   font-family: 'roboto', sans-serif;
+   font-weight: 700;
+   position: absolute;
+   color: #fff;
+   margin-left: -100px;
+   margin-top: -100px;
+   left:50%;
+   width:auto;
+   background-color: #ff3300;
+   padding: 10px 20px;
+   border-radius: 50px;
+   text-decoration: none;
 }
 
 /*CORES DISPONÍVEIS*/
-div ul li img{
-    position: relative;
-    float: left;
-    object-fit: cover;
+div ul li{
+   position: relative;
+   display: inline-block;
 }
 
 .HCores{
-    list-style: none;
+   list-style: none;
+   position:relative;
+   text-align: center;
 }
 .title2{
     text-align: center;
@@ -103,7 +111,6 @@ div ul li img{
 .text {
     text-align: center;
     font-family: 'roboto',sans-serif;
-    margin-top: -20px;
     color: #c3c3c3;
 }
 /*DESCRIÇÃO*/
@@ -111,26 +118,36 @@ div ul li img{
     text-align: center;
     font-family: 'roboto',sans-serif;
     font-weight: 700;
-    padding: 0px 70px 0px 0px;
+    padding: 20px;
     text-transform: uppercase;
 }
 
+.conteudo2{
+    padding: 20px;
+}
+.conteudo3{
+    padding: 20px;
+}
 .text2 {
-    color: #636363;
-    font-family: 'roboto',sans-serif;
-    text-align: center;
-    line-height: 25px;
+   color: #636363;
+   font-family: 'roboto',sans-serif;
+   text-align: center;
+   line-height: 25px;
+}
+.dir{
+    width: 50%;
     float: right;
-    width: 30%;
-    margin-right: 110px;
-    margin-top: 20px;
+    text-align: center;
 }
 
-.phonepreto {
-    width: 40%;
-    align-self: left;
-    margin-left: 50px;
+.esq{
+    width: 50%;
+    float: left;
+    text-align: center;
 }
+/*.phonepreto {
+    width: 50%;
+}*/
 
 .text3 {
     color: #636363;
@@ -163,15 +180,14 @@ div ul li img{
     border-top-left-radius: 20px;
     
 }
-.tabela{
-    margin-left: 150px;
+.lista{
+    width: 100%;
     padding: 20px;
-    align-self: center;
+    text-align: center;
 }
 .tabela2{
-    padding: 20px 30px;
-    margin-left: 25%;
     border-radius: 20px;
+    padding: 20px;
     background-color: #ff3300;
     color: #fff;
 }
@@ -187,6 +203,10 @@ option{
 }
 .formulario{
     padding: 20px;
+    text-align: center;
+}
+input, select, textarea{
+    margin-bottom: 5px;
 }
 .bnt{
     background-color: #ff3300;
