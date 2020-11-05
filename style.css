@@ -67,7 +67,7 @@ body, html, div{
     position: absolute;
     color: #fff;
     margin-left: -100px;
-    margin-top: -100px;
+    margin-top: -70px;
     left:50%;
     width:auto;
     background-color: #ff3300;
@@ -82,7 +82,7 @@ body, html, div{
    position: absolute;
    color: #fff;
    margin-left: -100px;
-   margin-top: -100px;
+   margin-top: -70px;
    left:50%;
    width:auto;
    background-color: #ff3300;
@@ -131,13 +131,12 @@ div ul li{
 .text2 {
    color: #636363;
    font-family: 'roboto',sans-serif;
-   text-align: center;
+   text-align: justify;
    line-height: 25px;
 }
 .dir{
     width: 50%;
     float: right;
-    text-align: center;
 }
 
 .esq{
@@ -148,13 +147,17 @@ div ul li{
 /*.phonepreto {
     width: 50%;
 }*/
+@media (max-width: 1000px) {
+    .dir, .esq {
+      width: 100%;
+      text-align: center;
+    }
+  }
 
 .text3 {
     color: #636363;
     font-family: 'roboto',sans-serif;
-    padding: 20px 50px 20px 0px;
     position: absolute;
-    margin-left: 110px;
     line-height: 25px;
 }
 .zoom {
@@ -206,7 +209,7 @@ option{
     text-align: center;
 }
 input, select, textarea{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 .bnt{
     background-color: #ff3300;
