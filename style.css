@@ -229,3 +229,21 @@ input, select, textarea{
     border: 1px solid #9b2d12;
     padding: 5px 10px;
 }
+.column4 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 300px;
+}
+.conteudo {
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 722px){
+    .column4{
+        width: 100%;
+        text-align: center;
+    }
+}
