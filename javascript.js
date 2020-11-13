@@ -1,14 +1,11 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
-            $('a[href="#top"]').fadeIn();
-        } else {
-            $('a[href="#top"]').fadeOut();
-        }
-    });
-
-    $('a[href="#top"]').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
-        return false;
-    });
-});
+function mostraDados(){
+    var nome = duvidas.nome.value;
+    var cpf = duvidas.cpf.value;
+    var email = duvidas.email.value;
+    var mensagem = duvidas.mensagem.value;
+    var msg = "Nome: " + nome + 
+              " CPF: " + cpf +
+              " E-mail: " + email +
+              " Mensagem: " + mensagem;
+    alert(msg);
+}

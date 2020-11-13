@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script type="text/javascript" src="javascript.js" ></script>
     <div id="container">
 
     <!--MENU-->
@@ -26,7 +27,7 @@
     </div>
     <div class="formulario">
         <h2 class="c3 title3">Alguma dúvida? Nos escreva!</h2>
-        <form action="contato.html" method="post">  
+        <form action="contato.html" method="post" name="duvidas">  
             <label for="nome">Seu nome:</label>
                 <input type="text" name="nome" id="nome" placeholder="Ex. João Silva"><br>
             <label for="cpf">CPF:</label>
@@ -46,7 +47,7 @@
                 <textarea name="mensagem" id="mensagem" cols="30" rows="4" style="resize: none;"></textarea><br>
             <label for="arquivo">Arquivo:</label>
                 <input type="file" name="arquivo" id="arquivo"><br>
-            <input class="bnt" type="submit" value="Enviar">
+            <input class="bnt" type="submit" value="Enviar" onclick="mostraDados()">
             <input class="bnt" type="reset" value="Limpar">
         </form>
     </div>
