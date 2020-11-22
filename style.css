@@ -1,0 +1,243 @@
+/*SETS GERAIS*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+.c1{
+    color: #fff;
+}
+.c2 {
+    color: #000;
+}
+.c3 {
+    color: #ff3300;
+}
+body, html, div{
+    margin: 0px;
+}
+/*MENU*/
+.menu{
+    background-color:#ff3300;
+    height: 50px;
+    padding: 0px 40px 0px 0px;
+    margin-top: 0px;
+    box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.315);
+}
+.logo{
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.menu nav ul{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+.menu nav ul li{
+    float: right;
+    position: relative;
+    padding: 15px 0px 0px 5px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: #9b2d12;
+}
+.menu nav ul li a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+/*BANNER*/
+.banner {
+    text-align: center;
+}
+#img{
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+}
+.title{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    color: #fff;
+    margin-left: -100px;
+    margin-top: -70px;
+    left:50%;
+    width:auto;
+    background-color: #ff3300;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.315);
+    text-decoration: none;
+}
+/*CORES DISPONIVEIS*/
+div ul li{
+    position: relative;
+    display: inline-block;
+ }
+.HCores{
+    list-style: none;
+    position:relative;
+    text-align: center;
+ }
+.title2{
+     text-align: center;
+     font-family: 'roboto',sans-serif;
+     font-weight: 700;
+     text-transform: uppercase;
+     padding: 20px 0px 0px 0px;
+ }
+.text {
+     text-align: center;
+     font-family: 'roboto',sans-serif;
+     color: #c3c3c3;
+ }
+
+.headcores {
+    width: 100%;
+}
+.text2 {
+    color: #636363;
+    font-family: 'roboto',sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    padding: 20px;
+ }
+.title3{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.text3 {
+    color: #636363;
+    font-family: 'roboto',sans-serif;
+}
+/*BENEFICIOS*/
+.beneficios {
+    width: 100%;
+    text-align: center;
+    background:#000;
+}
+.coluna-3{
+    width: 33.33%;
+    float:left;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    height: 250px;
+}
+/*PRODUTO*/
+.produto {
+    width: 100%;
+}
+.fone{
+    text-align: center;
+}
+.tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px 20px 5px;
+
+}
+.text3 {
+    color: #636363;
+    font-family: 'roboto',sans-serif;
+    /* position: absolute;
+    line
+    height: 25px; */
+}
+.des-tabela{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ff3300;
+    color: #fff;
+
+}
+.headtable {
+    text-align: left;
+    text-transform: uppercase;
+}
+.coluna{
+    width:100%;
+    float:left;
+}
+/*GALERIA*/
+.zoom {
+	overflow: hidden;
+}
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #c3c3c3;
+    -webkit-box-shadow: 9px 3px 3px rgba(50, 50, 50, 0.329);
+	-moz-box-shadow:    9px 3px 3px rgba(50, 50, 50, 0.329);
+	box-shadow:         9px 3px 3px rgba(50, 50, 50, 0.329);
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #eb5631;
+    border-top-left-radius: 20px;
+    
+}
+.galeria{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+/*FORMULARIO*/
+label{
+    font-family: 'roboto', sans-serif;
+}
+option{
+    font-family: 'roboto', sans-serif;
+}
+.formulario{
+    padding: 20px;
+    text-align: center;
+}
+input, select, textarea{
+    margin-bottom: 7px;
+}
+.bnt{
+    background-color: #ff3300;
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid coral;
+    padding: 5px 10px;
+}
+.bnt:hover{
+    background-color: #ff3300;
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #9b2d12;
+    padding: 5px 10px;
+}
+@media (max-width: 800px){
+ .coluna-3{
+        width: 100%;
+   }
+}
