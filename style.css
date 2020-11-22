@@ -129,16 +129,15 @@ div ul li{
 .beneficios {
     width: 100%;
     text-align: center;
-    background:#000;
+    display: flex;
 }
 .coluna-3{
     width: 33.33%;
-    float:left;
     text-align: center;
     padding: 20px;
     position: relative;
     box-sizing: border-box;
-    height: 250px;
+
 }
 /*PRODUTO*/
 .produto {
@@ -174,7 +173,6 @@ div ul li{
 }
 .coluna{
     width:100%;
-    float:left;
 }
 /*GALERIA*/
 .zoom {
